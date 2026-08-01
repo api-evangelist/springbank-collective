@@ -1,8 +1,26 @@
 aid: springbank-collective
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/springbank-collective.png
 name: Springbank Collective
-description: 'Springbank Collective is a company surfaced as a portfolio company of foundry-group and
-  added to the API Evangelist network as a stub for enrichment. Sector: venture-capital. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Springbank Collective (Springbank) is an early-stage venture capital
+  firm investing in mission-critical infrastructure technology across three core sectors
+  — work, live, and care. The firm backs pre-seed through Series A companies building
+  AI-driven productivity tools for frontline workers and small businesses, innovation
+  responding to demographic change and the multi-trillion-dollar generational wealth
+  transfer, and healthcare and caregiving delivery infrastructure. Springbank emphasizes
+  backing world-class founding teams of all genders and backgrounds. It was surfaced
+  as a portfolio-adjacent company of foundry-group and tracked within the API Evangelist
+  network; the firm itself publishes no public API or developer surface.'
 url: https://raw.githubusercontent.com/api-evangelist/springbank-collective/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Venture Capital
+- Investment
+- Infrastructure
+- Healthcare
+- Fintech
+- Pre-Seed
+- Series A
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +48,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.springbankcollective.com
+  url: https://springbank.vc/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/springbank-collective/
+- type: Twitter
+  url: https://twitter.com/wearespringbank
+- type: DomainSecurity
+  url: security/springbank-collective-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
