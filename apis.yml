@@ -33,6 +33,9 @@ description: 'Springbank Collective (Springbank) is an early-stage venture capit
   as a portfolio-adjacent company of foundry-group and tracked within the API Evangelist
   network; the firm itself publishes no public API or developer surface.'
 url: https://raw.githubusercontent.com/api-evangelist/springbank-collective/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "It was surfaced as a portfolio-adjacent company of foundry-group and tracked within the API Evangelist network; the firm itself publishes no public API or developer surface."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
