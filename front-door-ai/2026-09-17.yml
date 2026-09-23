@@ -1,0 +1,26 @@
+# Front Door AI Index — springbank-collective — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: springbank-collective
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: springbank.vc
+  final_host: www.springbank.vc
+  ownership: own
+  owner: springbank-collective
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 2
+  host_score: 2
+  density: 2.33
+  words: 859
+  tiers:
+    agentic: 0
+    core: 2
+    model: 0
+  ambiguous: 1
+  top_terms:
+    AI: 2
+    cognitive: 1
